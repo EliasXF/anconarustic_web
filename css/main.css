@@ -18,7 +18,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1000000;
+    z-index: 1;
     display: none;
 }
 
@@ -30,7 +30,7 @@ body {
 }
 
 .modal__img {
-    width: 50%;
+    width: 40%;
 }
 
 .modal__boton {
