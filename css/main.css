@@ -1,6 +1,6 @@
 * {
-
-    border: 0;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -9,18 +9,13 @@ body {
 
 }
 
-/* nav */
-
+/* header */
 header {
-    border: 1px red solid;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 30px 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
+    border-bottom: 3px #D2B48C solid;
+    width: 1200px;
+    text-align: center;
+    margin: 60px auto;
+
 }
 
 header .logo {
@@ -28,36 +23,28 @@ header .logo {
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    display: inline-block;
-    font-weight: 70px;
-    text-decoration: none;
-    font-size: 2em;
+    font-size: 4em;
     text-transform: uppercase;
-    letter-spacing: 2px ;
+}
+/* End header */
+
+/* Galery */
+.container {
+    width: 1400px;
+    margin: 20px auto;
+    columns: 4;
+    column-gap: 40px;
 }
 
-header ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.container .box {
+    width: 100%;
+    margin-bottom: 10px;
+    break-inside: avoid;
 }
 
-header ul li {
-    list-style: none;
-    margin-left: 20px;
+.container .box img {
+    max-width: 100%;
+    border-radius: 15px;
 }
 
-header ul li a {
-    text-decoration: none;
-    padding: 6px 15px;
-    color: #fff;
-    border-radius: 20px;
-}
-
-header ul li a:hover {
-    background-color: #fff;
-    color: #2b1055;
-}
-
-/* end nav */
-
+/* End alery */
